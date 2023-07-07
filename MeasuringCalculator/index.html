@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="full">
+  <nav>
+    <div>
+      <img src="images/Logo.webp" alt="" style="width: 60px;">
+    </div>
+    <div>
+      <h1 style="display: inline;">Calculator</h1>
+    </div>
+  </nav>
+  <div class="bars">
+    <div id="vessel-details-container">
+      <div class="input-container">
+        <label for="metrics"></label>
+        <select id="metrics">
+          <option value="inch">Inch</option>
+          <option value="cm">CM</option>
+        </select>
+      </div>
+      
+      <div class="input-container">
+        <label for="burn-hour"></label>
+        <input type="number" id="burn-hour" placeholder="Burn Hour">
+      </div>
+      <div id="div-wipe">
+      </div>
+      <button id="add-vessel-button" class="BOT">Add Vessel</button>
+      <button id="calculate-button" class="BOT">Calculate</button>
+
+      </div>
+    </div>
+    <br>
+    <h2>Output</h2>
+    <div id="output" class="output-container">
+      <div id="results"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
